@@ -5,6 +5,12 @@ body {
   background-color: #efd0ff;
 }
 
+@media (max-width: 768px) {
+  .body {
+    width: 90%;
+  }
+}
+
 marquee{
   background: linear-gradient(to right, #7b4397, #dc2430);
   color: black;
